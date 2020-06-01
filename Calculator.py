@@ -33,28 +33,28 @@ class Calculator():
 		self.window.mainloop()
 	def addition(self):
 		if(self.E1.get()=="" or self.E2.get==""):
-			messagebox.showinfo('Warning!','Please enter values')
+			messagebox.showinfo('Warning!','Enter Valid Input')
 			return
 		r=round(float(self.E1.get())+float(self.E2.get()),2)
 		self.E3.delete(0,len(self.E3.get())-1)
 		self.E3.insert(0,str(r))
 	def subtraction(self):
 		if(self.E1.get()=="" or self.E2.get==""):
-			messagebox.showinfo('Warning!','Please enter values')
+			messagebox.showinfo('Warning!','Enter Valid Input')
 			return
 		r=round(float(self.E1.get())-float(self.E2.get()),2)
 		self.E3.delete(0,len(self.E3.get())-1)
 		self.E3.insert(0,str(r))
 	def multiplication(self):
 		if(self.E1.get()=="" or self.E2.get==""):
-			messagebox.showinfo('Warning!','Please enter values')
+			messagebox.showinfo('Warning!','Enter Valid Input')
 			return
 		r=round(float(self.E1.get())*float(self.E2.get()),2)
 		self.E3.delete(0,len(self.E3.get())-1)
 		self.E3.insert(0,str(r))
 	def division(self):
 		if(self.E1.get()=="" or self.E2.get==""):
-			messagebox.showinfo('Warning!','Please enter values')
+			messagebox.showinfo('Warning!','Enter Valid Input')
 			return
 		r=round(float(self.E1.get())/float(self.E2.get()),2)
 		self.E3.delete(0,len(self.E3.get())-1)
