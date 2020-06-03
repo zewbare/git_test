@@ -60,7 +60,7 @@ class Calculator():
 		self.E3.delete(0,len(self.E3.get())-1)
 		self.E3.insert(0,str(r))
 	def clear(self):
-		if messagebox.askquestion('Clear','Are you sure?'):
+		if messagebox.askquestion('Clear','Are you really sure?'):
 			self.E1.delete(0,len(self.E1.get()))
 			self.E2.delete(0,len(self.E2.get()))
 			self.E3.delete(0,len(self.E3.get()))
